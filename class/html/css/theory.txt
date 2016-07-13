@@ -1,0 +1,44 @@
+selector
+1. Tag
+2. id
+3. class
+
+EX> <div id-"header" class="header"></div>
+
+CSS 포함방벙
+
+1. inline
+
+ex> <div style="color:red"></div>
+
+2. embed (internal)  <내부스타일 시트>
+<! DOCTYPE html1>
+<html long="ko">
+<head>
+<meta charset="UTF-8"?
+<title></title>
+<!--// css -->
+</head>
+
+3. external
+
+ex
+파일: style.css
+<! DOCTYPE html1>
+<html long="ko">
+<head>
+<meta charset="UTF-8"?
+<title></title>
+<!--// css -->
+<link rel="stylesheet" href="style css" />
+</head>
+
+문법
+
+selector {
+ property :  property 값;
+ property :  property 값;
+ property :  property 값;
+}
+
+
