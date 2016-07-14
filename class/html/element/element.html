@@ -180,7 +180,7 @@
     </table>
 
     <table summary=" ">
-      <caption><</caption>
+      <caption></caption>
       <colgroup>
         <col />
       </colgroup>
@@ -450,3 +450,85 @@
 
     </body>
 </html>
+
+
+******** border property 정리 ******
+
+1. 4방향 모두 공통 적용
+border: 굵기 종류 색;
+
+
+2. 각각의 방향에 공통적용
+
+border- top: 굵기 종류 색;
+border- right: 굵기 종류 색;
+border- bottom: 굵기 종류 색;
+border- left: 굵기 종류 색;
+
+3. 각각의 방향, 각각의 CSS 속성 적용
+
+border-top-style,
+border-top-width,
+border-top-color,
+border-right-style,
+border-right-width,
+border-right-color,
+...
+
+
+***** CSS 단위 *****
+
+px : 숫자 고정값
+
+em : body에 적용된 기본 폰트 크기의 배수
+
+% : parent tag 영역의 배율로 크기 결정
+
+
+******** border property 정리 ******
+
+1. 4방향 모두 공통 적용
+border: 굵기 종류 색;
+
+
+2. 각각의 방향에 공통적용
+
+border- top: 굵기 종류 색;
+border- right: 굵기 종류 색;
+border- bottom: 굵기 종류 색;
+border- left: 굵기 종류 색;
+
+3. 각각의 방향, 각각의 CSS 속성 적용
+
+border-top-style,
+border-top-width,
+border-top-color,
+border-right-style,
+border-right-width,
+border-right-color,
+...
+
+
+***** CSS 단위 *****
+
+px : 숫자 고정값
+
+em : body에 적용된 기본 폰트 크기의 배수
+
+% : parent tag 영역의 배율로 크기 결정
+
+ex)
+-@ html
+
+<div>
+  <p>단락</p>
+</div>
+
+-@ css
+
+p{width:50%;}
+
+p 태그의 영역 가로 길이는 div 태그 영역의 50%(절반)의 크기
+
+***** width / max-width / min-width ****
+
