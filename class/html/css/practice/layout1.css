@@ -8,7 +8,7 @@
  */
 
     .wrap{
-      width:1200px;
+      width:980px;
       margin:0 auto;
     }
 
@@ -18,8 +18,10 @@
       margin-bottom:20px;
     }
 
-    .container{
-      height:800px;
+    .container:after{
+      content:"";
+      display:block;
+      clear:both;
     }
 
     .lnb{
@@ -36,6 +38,13 @@
       background-color:pink;
       float:right;
     }
+
+ .contents{
+   width:930px;
+   height:800px;
+   background-color:pink;
+   float:right;
+ }
 
     .footer{
       height:300px;
