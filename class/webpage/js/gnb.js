@@ -9,4 +9,9 @@ $(function(){
         $('.gnb-bg').show();
     });
 
+    $('.gnb-depth1-link').on('mouseleave',function(){
+        $('.gnb-depth2').hide();
+        $('.gnb-bg').hide();
+    });
+
 });
